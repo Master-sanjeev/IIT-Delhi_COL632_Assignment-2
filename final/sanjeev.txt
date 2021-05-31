@@ -1,0 +1,380 @@
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+    name     
+-------------
+ Albuquerque
+ Chicago
+ Dallas
+ New York
+(4 rows)
+
+    name     
+-------------
+ Albuquerque
+ Chicago
+ Dallas
+ Islip
+ Kahului
+ New York
+ Providence
+ Reno
+ Santa Ana
+ Washington
+(10 rows)
+
+  name  
+--------
+ Dallas
+(1 row)
+
+ length 
+--------
+      4
+(1 row)
+
+ length 
+--------
+      4
+(1 row)
+
+ count 
+-------
+     3
+(1 row)
+
+ count 
+-------
+     1
+(1 row)
+
+    name1    |    name2    
+-------------+-------------
+ Albany      | Albuquerque
+ Albany      | Chicago
+ Albany      | Dallas
+ Albany      | Islip
+ Albany      | Kahului
+ Albany      | New York
+ Albany      | Ontario
+ Albany      | Providence
+ Albany      | Reno
+ Albany      | Santa Ana
+ Albany      | Washington
+ Albuquerque | Ontario
+ Chicago     | Ontario
+ Dallas      | Ontario
+ Islip       | Ontario
+ Kahului     | Albany
+ Kahului     | Albuquerque
+ Kahului     | Chicago
+ Kahului     | Dallas
+ Kahului     | Islip
+ Kahului     | New York
+ Kahului     | Ontario
+ Kahului     | Providence
+ Kahului     | Reno
+ Kahului     | Santa Ana
+ Kahului     | Washington
+ New York    | Ontario
+ Ontario     | Albany
+ Ontario     | Albuquerque
+ Ontario     | Chicago
+ Ontario     | Dallas
+ Ontario     | Islip
+ Ontario     | Kahului
+ Ontario     | New York
+ Ontario     | Providence
+ Ontario     | Reno
+ Ontario     | Santa Ana
+ Ontario     | Washington
+ Providence  | Ontario
+ Reno        | Ontario
+ Santa Ana   | Ontario
+ Washington  | Ontario
+(42 rows)
+
+ day 
+-----
+   6
+   1
+   4
+   5
+   7
+  30
+  28
+  27
+  31
+   9
+  17
+  20
+  11
+  16
+  12
+   3
+  19
+  21
+   2
+  24
+  15
+  22
+  13
+  26
+  25
+  18
+  14
+  23
+   8
+  29
+  10
+(31 rows)
+
+   name   
+----------
+ Islip
+ New York
+(2 rows)
+
+    name1    |    name2    
+-------------+-------------
+ Albuquerque | Albany
+ Albuquerque | Albuquerque
+ Albuquerque | Chicago
+ Albuquerque | Dallas
+ Albuquerque | Islip
+ Albuquerque | Kahului
+ Albuquerque | New York
+ Albuquerque | Providence
+ Albuquerque | Reno
+ Albuquerque | Santa Ana
+ Albuquerque | Washington
+ Chicago     | Albany
+ Chicago     | Albuquerque
+ Chicago     | Chicago
+ Chicago     | Dallas
+ Chicago     | Islip
+ Chicago     | Kahului
+ Chicago     | New York
+ Chicago     | Providence
+ Chicago     | Reno
+ Chicago     | Santa Ana
+ Chicago     | Washington
+ Dallas      | Albany
+ Dallas      | Albuquerque
+ Dallas      | Chicago
+ Dallas      | Dallas
+ Dallas      | Islip
+ Dallas      | Kahului
+ Dallas      | New York
+ Dallas      | Providence
+ Dallas      | Reno
+ Dallas      | Santa Ana
+ Dallas      | Washington
+ Islip       | Albany
+ Islip       | Albuquerque
+ Islip       | Chicago
+ Islip       | Dallas
+ Islip       | Islip
+ Islip       | Kahului
+ Islip       | New York
+ Islip       | Providence
+ Islip       | Reno
+ Islip       | Santa Ana
+ Islip       | Washington
+ New York    | Albany
+ New York    | Albuquerque
+ New York    | Chicago
+ New York    | Dallas
+ New York    | Islip
+ New York    | Kahului
+ New York    | New York
+ New York    | Providence
+ New York    | Reno
+ New York    | Santa Ana
+ New York    | Washington
+ Providence  | Albany
+ Providence  | Albuquerque
+ Providence  | Chicago
+ Providence  | Dallas
+ Providence  | Islip
+ Providence  | Kahului
+ Providence  | New York
+ Providence  | Providence
+ Providence  | Reno
+ Providence  | Santa Ana
+ Providence  | Washington
+ Reno        | Albany
+ Reno        | Albuquerque
+ Reno        | Chicago
+ Reno        | Dallas
+ Reno        | Islip
+ Reno        | Kahului
+ Reno        | New York
+ Reno        | Providence
+ Reno        | Reno
+ Reno        | Santa Ana
+ Reno        | Washington
+ Santa Ana   | Albany
+ Santa Ana   | Albuquerque
+ Santa Ana   | Chicago
+ Santa Ana   | Dallas
+ Santa Ana   | Islip
+ Santa Ana   | Kahului
+ Santa Ana   | New York
+ Santa Ana   | Providence
+ Santa Ana   | Reno
+ Santa Ana   | Santa Ana
+ Santa Ana   | Washington
+ Washington  | Albany
+ Washington  | Albuquerque
+ Washington  | Chicago
+ Washington  | Dallas
+ Washington  | Kahului
+ Washington  | New York
+ Washington  | Providence
+ Washington  | Reno
+ Washington  | Santa Ana
+ Washington  | Washington
+(98 rows)
+
+ authorid | length 
+----------+--------
+      321 |      4
+     1436 |      4
+      102 |      3
+      456 |      3
+     1745 |      3
+     3552 |      3
+      562 |      2
+      704 |      2
+     2826 |      2
+      921 |      1
+     1558 |      1
+      111 |     -1
+      112 |     -1
+(13 rows)
+
+ count 
+-------
+     2
+(1 row)
+
+ count 
+-------
+     1
+(1 row)
+
+ authorid 
+----------
+     1436
+     1745
+      456
+     2826
+      321
+     3552
+      704
+     1558
+      102
+      562
+(10 rows)
+
+ authorid 
+----------
+      456
+      321
+     1436
+     1745
+     3552
+      562
+      102
+     2826
+      704
+      921
+(10 rows)
+
+ count 
+-------
+     2
+(1 row)
+
+ conferencename | count 
+----------------+-------
+ CO2            |     3
+ CO3            |     3
+ CO1            |     2
+ CO4            |     1
+(4 rows)
+
+ conferencename | count 
+----------------+-------
+ CO1            |     2
+ CO2            |     2
+ CO2            |     2
+ CO3            |     2
+ CO3            |     2
+ CO4            |     2
+ CO3            |     3
+ CO2            |     4
+ CO1            |     5
+(9 rows)
+
+DROP VIEW
+                                List of databases
+      Name       |  Owner   | Encoding | Collate | Ctype |   Access privileges   
+-----------------+----------+----------+---------+-------+-----------------------
+ airport_authors | postgres | UTF8     | en_IN   | en_IN | 
+ airportpart1    | postgres | UTF8     | en_IN   | en_IN | 
+ authors         | postgres | UTF8     | en_IN   | en_IN | 
+ ipl             | postgres | UTF8     | en_IN   | en_IN | 
+ postgres        | postgres | UTF8     | en_IN   | en_IN | 
+ template0       | postgres | UTF8     | en_IN   | en_IN | =c/postgres          +
+                 |          |          |         |       | postgres=CTc/postgres
+ template1       | postgres | UTF8     | en_IN   | en_IN | =c/postgres          +
+                 |          |          |         |       | postgres=CTc/postgres
+(7 rows)
+
+                                List of databases
+      Name       |  Owner   | Encoding | Collate | Ctype |   Access privileges   
+-----------------+----------+----------+---------+-------+-----------------------
+ airport_authors | postgres | UTF8     | en_IN   | en_IN | 
+ airportpart1    | postgres | UTF8     | en_IN   | en_IN | 
+ authors         | postgres | UTF8     | en_IN   | en_IN | 
+ ipl             | postgres | UTF8     | en_IN   | en_IN | 
+ postgres        | postgres | UTF8     | en_IN   | en_IN | 
+ template0       | postgres | UTF8     | en_IN   | en_IN | =c/postgres          +
+                 |          |          |         |       | postgres=CTc/postgres
+ template1       | postgres | UTF8     | en_IN   | en_IN | =c/postgres          +
+                 |          |          |         |       | postgres=CTc/postgres
+(7 rows)
+
+              List of relations
+ Schema |      Name       | Type  |  Owner   
+--------+-----------------+-------+----------
+ public | airports        | table | postgres
+ public | authordetails   | table | postgres
+ public | authorpaperlist | table | postgres
+ public | citationlist    | table | postgres
+ public | flights         | table | postgres
+ public | paperdetails    | table | postgres
+(6 rows)
+
+                                List of databases
+      Name       |  Owner   | Encoding | Collate | Ctype |   Access privileges   
+-----------------+----------+----------+---------+-------+-----------------------
+ airport_authors | postgres | UTF8     | en_IN   | en_IN | 
+ airportpart1    | postgres | UTF8     | en_IN   | en_IN | 
+ authors         | postgres | UTF8     | en_IN   | en_IN | 
+ ipl             | postgres | UTF8     | en_IN   | en_IN | 
+ postgres        | postgres | UTF8     | en_IN   | en_IN | 
+ template0       | postgres | UTF8     | en_IN   | en_IN | =c/postgres          +
+                 |          |          |         |       | postgres=CTc/postgres
+ template1       | postgres | UTF8     | en_IN   | en_IN | =c/postgres          +
+                 |          |          |         |       | postgres=CTc/postgres
+(7 rows)
+
